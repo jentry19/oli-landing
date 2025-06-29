@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oli - AI Support Assistant</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: linear-gradient(to bottom, #5b21b6, #4338ca, #1e3a8a);
+      color: white;
+      text-align: center;
+      padding: 40px;
+    }
+    h1 {
+      font-size: 40px;
+      color: #facc15;
+    }
+    p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: 20px auto;
+    }
+    button {
+      padding: 12px 24px;
+      font-size: 16px;
+      border: none;
+      border-radius: 12px;
+      background: white;
+      color: #4338ca;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    #oli-box {
+      margin-top: 30px;
+      padding: 20px;
+      background-color: #4f46e5;
+      border-radius: 16px;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% { opacity: 1; }
+      50% { opacity: 0.5; }
+      100% { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Meet Oli</h1>
+  <p>Your AI support assistant. Oli is patient, friendly, and handles support questions 24/7.</p>
+  <button>Try It Free</button>
+  <div id="oli-box">
+    <p>Hello there! I'm Oli. How can I help you today?</p>
+  </div>
+</body>
+</html>
